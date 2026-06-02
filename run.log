@@ -1,0 +1,151 @@
+2026-06-03 01:17:41,947 - INFO - Job started
+2026-06-03 01:17:41,949 - INFO - Config loaded and validated | seed=42 window=5 version=v1
+2026-06-03 01:17:41,966 - ERROR - Pipeline failed: Required column 'close' not found
+Traceback (most recent call last):
+  File "C:\Users\Ritik\PycharmProjects\PythonProject\mlops-task\run.py", line 177, in main
+    df = load_dataset(args.input)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ritik\PycharmProjects\PythonProject\mlops-task\run.py", line 82, in load_dataset
+    raise ValueError(
+ValueError: Required column 'close' not found
+2026-06-03 01:29:29,594 - INFO - Job started
+2026-06-03 01:29:29,595 - INFO - Config loaded and validated | seed=42 window=5 version=v1
+2026-06-03 01:29:29,614 - ERROR - Pipeline failed: Required column 'close' not found
+Traceback (most recent call last):
+  File "C:\Users\Ritik\PycharmProjects\PythonProject\mlops-task\run.py", line 178, in main
+    df = load_dataset(args.input)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ritik\PycharmProjects\PythonProject\mlops-task\run.py", line 83, in load_dataset
+    raise ValueError(
+ValueError: Required column 'close' not found
+2026-06-03 01:31:46,128 - INFO - Job started
+2026-06-03 01:31:46,129 - INFO - Config loaded and validated | seed=42 window=5 version=v1
+2026-06-03 01:31:46,153 - ERROR - Pipeline failed: Required column 'close' not found
+Traceback (most recent call last):
+  File "C:\Users\Ritik\PycharmProjects\PythonProject\mlops-task\run.py", line 179, in main
+    df = load_dataset(args.input)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ritik\PycharmProjects\PythonProject\mlops-task\run.py", line 84, in load_dataset
+    raise ValueError(
+ValueError: Required column 'close' not found
+2026-06-03 01:32:44,865 - INFO - Job started
+2026-06-03 01:32:44,866 - INFO - Config loaded and validated | seed=42 window=5 version=v1
+2026-06-03 01:32:44,901 - ERROR - Pipeline failed: Required column 'close' not found
+Traceback (most recent call last):
+  File "C:\Users\Ritik\PycharmProjects\PythonProject\mlops-task\run.py", line 180, in main
+    df = load_dataset(args.input)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ritik\PycharmProjects\PythonProject\mlops-task\run.py", line 85, in load_dataset
+    raise ValueError(
+ValueError: Required column 'close' not found
+2026-06-03 01:35:56,103 - INFO - MLOps batch job started
+2026-06-03 01:35:56,104 - INFO - Loading config from config.yaml
+2026-06-03 01:35:56,105 - INFO - Config loaded and validated - seed: 42, window: 5, version: v1
+2026-06-03 01:35:56,105 - INFO - Random seed set to 42
+2026-06-03 01:35:56,105 - INFO - Loading dataset from data.csv
+2026-06-03 01:35:56,130 - ERROR - Failed to load dataset: Missing required column: 'close'
+2026-06-03 01:35:56,130 - ERROR - Job failed: Missing required column: 'close'
+2026-06-03 01:35:56,131 - ERROR - Error metrics written to metrics.json
+2026-06-03 01:35:56,131 - INFO - MLOps batch job completed with errors
+2026-06-03 01:37:13,357 - INFO - Job started
+2026-06-03 01:37:13,359 - INFO - Config loaded and validated | seed=42 window=5 version=v1
+2026-06-03 01:37:13,411 - ERROR - Pipeline failed: Required column 'close' not found
+Traceback (most recent call last):
+  File "C:\Users\Ritik\PycharmProjects\PythonProject\mlops-task\run.py", line 180, in main
+    df = load_dataset(args.input)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ritik\PycharmProjects\PythonProject\mlops-task\run.py", line 85, in load_dataset
+    raise ValueError(
+ValueError: Required column 'close' not found
+2026-06-03 01:39:30,199 - INFO - Job started
+2026-06-03 01:39:30,201 - INFO - Config loaded and validated | seed=42 window=5 version=v1
+2026-06-03 01:39:30,229 - ERROR - Pipeline failed: Required column 'close' not found
+Traceback (most recent call last):
+  File "C:\Users\Ritik\PycharmProjects\PythonProject\mlops-task\run.py", line 184, in main
+    df = load_dataset(args.input)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ritik\PycharmProjects\PythonProject\mlops-task\run.py", line 89, in load_dataset
+    raise ValueError(
+ValueError: Required column 'close' not found
+2026-06-03 01:42:41,908 - INFO - Job started
+2026-06-03 01:42:41,909 - INFO - Config loaded and validated | seed=42 window=5 version=v1
+2026-06-03 01:42:41,933 - ERROR - Pipeline failed: Required column 'close' not found
+Traceback (most recent call last):
+  File "C:\Users\Ritik\PycharmProjects\PythonProject\mlops-task\run.py", line 188, in main
+    df = load_dataset(args.input)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ritik\PycharmProjects\PythonProject\mlops-task\run.py", line 93, in load_dataset
+    raise ValueError(
+ValueError: Required column 'close' not found
+2026-06-03 01:43:01,864 - INFO - Job started
+2026-06-03 01:43:01,865 - INFO - Config loaded and validated | seed=42 window=5 version=v1
+2026-06-03 01:43:01,903 - INFO - Rows loaded: 10000
+2026-06-03 01:43:01,903 - INFO - Computing rolling mean
+2026-06-03 01:43:01,911 - INFO - Generating signals
+2026-06-03 01:43:01,917 - INFO - Metrics summary | rows_processed=10000 signal_rate=0.0 latency_ms=50
+2026-06-03 01:43:01,917 - INFO - Job completed successfully
+2026-06-03 01:44:27,938 - INFO - Job started
+2026-06-03 01:44:27,938 - INFO - Config loaded and validated | seed=42 window=5 version=v1
+2026-06-03 01:44:27,977 - INFO - Rows loaded: 10000
+2026-06-03 01:44:27,977 - INFO - Computing rolling mean
+2026-06-03 01:44:27,978 - INFO - Generating signals
+2026-06-03 01:44:27,980 - INFO - Metrics summary | rows_processed=10000 signal_rate=0.0 latency_ms=41
+2026-06-03 01:44:27,980 - INFO - Job completed successfully
+2026-06-03 01:51:37,922 - INFO - Job started
+2026-06-03 01:51:37,923 - INFO - Config loaded and validated | seed=42 window=5 version=v1
+2026-06-03 01:51:37,966 - ERROR - Pipeline failed: Invalid CSV format: close column contains no valid numeric values
+Traceback (most recent call last):
+  File "C:\Users\Ritik\PycharmProjects\PythonProject\mlops-task\run.py", line 94, in load_dataset
+    raise ValueError(
+ValueError: close column contains no valid numeric values
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Ritik\PycharmProjects\PythonProject\mlops-task\run.py", line 211, in main
+    df = load_dataset(args.input)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ritik\PycharmProjects\PythonProject\mlops-task\run.py", line 112, in load_dataset
+    raise ValueError(
+ValueError: Invalid CSV format: close column contains no valid numeric values
+2026-06-03 01:53:31,612 - INFO - Job started
+2026-06-03 01:53:31,613 - INFO - Config loaded and validated | seed=42 window=5 version=v1
+2026-06-03 01:53:31,651 - ERROR - Pipeline failed: Invalid CSV format: close column contains no valid numeric values
+Traceback (most recent call last):
+  File "C:\Users\Ritik\PycharmProjects\PythonProject\mlops-task\run.py", line 94, in load_dataset
+    raise ValueError(
+ValueError: close column contains no valid numeric values
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Ritik\PycharmProjects\PythonProject\mlops-task\run.py", line 213, in main
+    df = load_dataset(args.input)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ritik\PycharmProjects\PythonProject\mlops-task\run.py", line 112, in load_dataset
+    raise ValueError(
+ValueError: Invalid CSV format: close column contains no valid numeric values
+2026-06-03 01:55:29,336 - INFO - Job started
+2026-06-03 01:55:29,336 - INFO - Config loaded and validated | seed=42 window=5 version=v1
+2026-06-03 01:55:29,365 - ERROR - Pipeline failed: Invalid CSV format: close column contains no valid numeric values
+Traceback (most recent call last):
+  File "C:\Users\Ritik\PycharmProjects\PythonProject\mlops-task\run.py", line 94, in load_dataset
+    raise ValueError(
+ValueError: close column contains no valid numeric values
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Ritik\PycharmProjects\PythonProject\mlops-task\run.py", line 211, in main
+    df = load_dataset(args.input)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ritik\PycharmProjects\PythonProject\mlops-task\run.py", line 112, in load_dataset
+    raise ValueError(
+ValueError: Invalid CSV format: close column contains no valid numeric values
+2026-06-03 01:56:21,761 - INFO - Job started
+2026-06-03 01:56:21,762 - INFO - Config loaded and validated | seed=42 window=5 version=v1
+2026-06-03 01:56:21,813 - INFO - Rows loaded: 10000
+2026-06-03 01:56:21,813 - INFO - Computing rolling mean
+2026-06-03 01:56:21,821 - INFO - Generating signals
+2026-06-03 01:56:21,827 - INFO - Metrics summary | rows_processed=10000 signal_rate=0.0 latency_ms=63
+2026-06-03 01:56:21,827 - INFO - Job completed successfully
